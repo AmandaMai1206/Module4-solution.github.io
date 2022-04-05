@@ -14,12 +14,12 @@
 (function(window){
   var speakWord = "Good Bye";
   var byeSpeaker ={};
-  byeSpeaker.speak =function(names){
+  byeSpeaker.speak =function(name){
   // STEP 8: Rewrite the 'speak' function such that it is attached to the
   // byeSpeaker object instead of being a standalone function.
   // See Lecture 52, part 2
   
-    console.log(speakWord + " " + names);
+    console.log(speakWord + " " + name);
   };
   window.byeSpeaker = byeSpeaker;
 })(window);
